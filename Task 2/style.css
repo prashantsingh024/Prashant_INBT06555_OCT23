@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(https://cdn.pixabay.com/photo/2018/09/26/09/07/education-3704026_1280.jpg); 
+  background-size: cover;
+  
+}
+
+.container {
+  width: 690px;
+  background: url(https://cdn.pixabay.com/photo/2017/10/05/10/59/background-2819026_1280.jpg);
+  background-size: cover;
+  border-radius: 7px;
+  padding: 30px;
+}
+
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #2d2c2c;
+}
+
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #181718;
+}
+
+.text-input .to-text {
+  border-left: 1px solid #3a3939;
+  border-radius: 0px;
+}
+
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  resize: none;
+}
+
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls {
+  list-style: none;
+  padding: 12px 15px;
+}
+
+.controls .row.from .icons {
+  border-right: 1px solid #bbb;
+  padding-right: 15px;
+}
+
+.controls .row.to .icons {
+  border-left: 1px solid #bbb;
+  padding-left: 15px;
+}
+
+.controls .icons {
+  width: 38%;
+}
+
+.controls .icons i {
+  color: #9f9f9f;
+  font-size: 14px;
+  cursor: pointer;
+  width: 50px;
+  justify-content: center;
+}
+
+.controls .row select {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+}
+
+.controls .exchange {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+
+.container button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: #0ba7ef77;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.container button:hover {
+  background: #30e8bf;
+}
